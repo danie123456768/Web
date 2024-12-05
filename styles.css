@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #0073e6;
+    font-size: 20px; 
+}
+
+
+.wrapper {
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+
+label {
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+
+input, button {
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 8px;
+    font-size: 14px; 
+}
+
+button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+/* Table */
+#weatherTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; 
+    font-size: 14px; 
+}
+
+#weatherTable th, #weatherTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#weatherTable th {
+    background-color: #0073e6;
+    color: white;
+}
